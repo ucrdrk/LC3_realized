@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes>
     <entry>
       <string>shapeType</string>
@@ -412,6 +412,10 @@
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>R0</string>
         </entry>
@@ -425,6 +429,10 @@
     <visualElement>
       <elementName>Register</elementName>
       <elementAttributes>
+        <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>Label</string>
           <string>R1</string>
@@ -440,6 +448,10 @@
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>R2</string>
         </entry>
@@ -453,6 +465,10 @@
     <visualElement>
       <elementName>Register</elementName>
       <elementAttributes>
+        <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>Label</string>
           <string>R3</string>
@@ -468,6 +484,10 @@
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>R4</string>
         </entry>
@@ -481,6 +501,10 @@
     <visualElement>
       <elementName>Register</elementName>
       <elementAttributes>
+        <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>Label</string>
           <string>R5</string>
@@ -496,6 +520,10 @@
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>R6</string>
         </entry>
@@ -503,12 +531,20 @@
           <string>Bits</string>
           <int>16</int>
         </entry>
+        <entry>
+          <string>isProgramCounter</string>
+          <boolean>true</boolean>
+        </entry>
       </elementAttributes>
       <pos x="-160" y="1200"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
       <elementAttributes>
+        <entry>
+          <string>valueIsProbe</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>Label</string>
           <string>R7</string>

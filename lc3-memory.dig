@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
     <entry>
       <string>preloadProgram</string>
       <boolean>true</boolean>
@@ -12,7 +18,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>/home/allan/Digital/lib/cs061/test_prog1.hex</file>
+      <file>/Users/allan/cs061/LC3_realized/test_prog1.hex</file>
     </entry>
   </attributes>
   <visualElements>
