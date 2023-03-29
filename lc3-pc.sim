@@ -1,0 +1,50 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_00000171a8e26df0 .scope module, "pc" "pc" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "addr_in";
+    .port_info 1 /INPUT 1 "clk";
+    .port_info 2 /INPUT 1 "en";
+    .port_info 3 /OUTPUT 16 "addr_out";
+L_00000171a8dd6480 .functor BUFZ 16, v00000171a8dde9b0_0, C4<0000000000000000>, C4<0000000000000000>, C4<0000000000000000>;
+o00000171a8e26f88 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v00000171a8dd6830_0 .net "addr_in", 15 0, o00000171a8e26f88;  0 drivers
+v00000171a8dde7d0_0 .net "addr_out", 15 0, L_00000171a8dd6480;  1 drivers
+o00000171a8e26fe8 .functor BUFZ 1, C4<z>; HiZ drive
+v00000171a8dde870_0 .net "clk", 0 0, o00000171a8e26fe8;  0 drivers
+o00000171a8e27018 .functor BUFZ 1, C4<z>; HiZ drive
+v00000171a8dde910_0 .net "en", 0 0, o00000171a8e27018;  0 drivers
+v00000171a8dde9b0_0 .var "pc", 15 0;
+E_00000171a8dd8610/0 .event anyedge, v00000171a8dde910_0;
+E_00000171a8dd8610/1 .event posedge, v00000171a8dde870_0;
+E_00000171a8dd8610 .event/or E_00000171a8dd8610/0, E_00000171a8dd8610/1;
+    .scope S_00000171a8e26df0;
+T_0 ;
+    %pushi/vec4 512, 0, 16;
+    %store/vec4 v00000171a8dde9b0_0, 0, 16;
+    %end;
+    .thread T_0;
+    .scope S_00000171a8e26df0;
+T_1 ;
+    %wait E_00000171a8dd8610;
+    %load/vec4 v00000171a8dde910_0;
+    %pad/u 32;
+    %cmpi/e 1, 0, 32;
+    %jmp/0xz  T_1.0, 6;
+    %load/vec4 v00000171a8dd6830_0;
+    %store/vec4 v00000171a8dde9b0_0, 0, 16;
+T_1.0 ;
+    %jmp T_1;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "lc3-pc.v";
