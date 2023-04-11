@@ -15,13 +15,12 @@ def read_data(object_file):
 object_file = open(sys.argv[1], 'rb')
 magic_number = object_file.read(5)
 if magic_number == MAGIC_NUMBER:
-  print("LC-3 Object File")
+  print("v2.0 raw")
 else:
   print("{} is not an LC-3 Object file".format(sys.argv[1]))
   sys.exit()
 
 version = object_file.read(2)
-print("Version {}.{}".format(version[0], version[1]))
 
 origin = 0
 
@@ -33,11 +32,12 @@ while True:
   
   is_orig = object_file.read(1) == b'\x01'
   if is_orig:
-    origin = value
+    for zero in range(origin, value):
+      print("{:04X}".format(0))
+      origin = origin + 1
     data = read_data(object_file)
-    print(data)
   else:
     data = read_data(object_file)
-    print("Mem[x{:04X}]".format(origin), " Hex: x{:04x} ".format(value), data)
+    print("{:04X} ".format(value))
 
     origin = origin + 1

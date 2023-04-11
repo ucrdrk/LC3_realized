@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
     <entry>
       <string>Width</string>
       <int>8</int>
+    </entry>
+    <entry>
+      <string>showDataTable</string>
+      <boolean>true</boolean>
     </entry>
   </attributes>
   <visualElements>
@@ -22,7 +32,7 @@
         <entry>
           <string>Data</string>
           <data>2480000000000,483004008000,8e0022002200,5e0022002200,3500000000000
-,483004008008,8e0022005200,5e0022005200,4920004010018,483004008010
+,483004008008,8e0022005200,5e002200d200,4920004010018,483004008010
 ,460022002200,4e0022002200,480804088018,4950480400180,482002002200
 ,bb0880400000,1400000000006,6600000000000,860830000000,6740000000000
 ,48381012c000,482810123000,480802082200,6410004000018,1610000000004
@@ -727,6 +737,24 @@
       </elementAttributes>
       <pos x="700" y="260"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>State</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="180"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -911,6 +939,10 @@
     </wire>
     <wire>
       <p1 x="480" y="240"/>
+      <p2 x="500" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="240"/>
       <p2 x="520" y="240"/>
     </wire>
     <wire>
@@ -936,6 +968,10 @@
     <wire>
       <p1 x="680" y="180"/>
       <p2 x="700" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="180"/>
+      <p2 x="540" y="180"/>
     </wire>
     <wire>
       <p1 x="220" y="180"/>
@@ -976,6 +1012,10 @@
     <wire>
       <p1 x="260" y="260"/>
       <p2 x="260" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="180"/>
+      <p2 x="500" y="240"/>
     </wire>
     <wire>
       <p1 x="280" y="280"/>
