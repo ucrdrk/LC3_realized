@@ -22,7 +22,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>C:\Users\allan\source\repos\LC3_realized\lc3_os.hex</file>
+      <file>/home/allan/cs061/LC3_realized/lc3_os.hex</file>
     </entry>
   </attributes>
   <visualElements>
@@ -1743,7 +1743,7 @@
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>15-12,11-9</string>
+          <string>15-9</string>
         </entry>
       </elementAttributes>
       <pos x="-1000" y="1000"/>
@@ -1775,7 +1775,7 @@
           <string>ACV</string>
         </entry>
       </elementAttributes>
-      <pos x="-780" y="1000"/>
+      <pos x="-780" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -2569,7 +2569,7 @@
         </entry>
         <entry>
           <string>CodeFile</string>
-          <file>\home\allan\cs061\LC3_realized\lc3-pc.v</file>
+          <file>/home/allan/cs061/LC3_realized/lc3-pc.v</file>
         </entry>
       </elementAttributes>
       <pos x="-60" y="320"/>
@@ -2874,12 +2874,12 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-        <entry>
           <string>Selector Bits</string>
           <int>2</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="260" y="260"/>
@@ -2998,7 +2998,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>12288</long>
+          <long>12294</long>
         </entry>
         <entry>
           <string>Bits</string>
@@ -3071,6 +3071,48 @@
         </entry>
       </elementAttributes>
       <pos x="-1440" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-940" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>LD.ACV</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-940" y="1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>LD.ACV</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="640"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -3165,6 +3207,10 @@
     <wire>
       <p1 x="120" y="1040"/>
       <p2 x="220" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="1040"/>
+      <p2 x="-920" y="1040"/>
     </wire>
     <wire>
       <p1 x="420" y="660"/>
@@ -3329,6 +3375,10 @@
     <wire>
       <p1 x="660" y="1060"/>
       <p2 x="680" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="1060"/>
+      <p2 x="-920" y="1060"/>
     </wire>
     <wire>
       <p1 x="900" y="680"/>
@@ -3747,10 +3797,6 @@
       <p2 x="-920" y="1000"/>
     </wire>
     <wire>
-      <p1 x="-800" y="1000"/>
-      <p2 x="-780" y="1000"/>
-    </wire>
-    <wire>
       <p1 x="-520" y="1000"/>
       <p2 x="-500" y="1000"/>
     </wire>
@@ -3847,8 +3893,8 @@
       <p2 x="-180" y="380"/>
     </wire>
     <wire>
-      <p1 x="-980" y="1020"/>
-      <p2 x="-920" y="1020"/>
+      <p1 x="-800" y="1020"/>
+      <p2 x="-780" y="1020"/>
     </wire>
     <wire>
       <p1 x="640" y="340"/>
@@ -4425,6 +4471,10 @@
     <wire>
       <p1 x="-120" y="1060"/>
       <p2 x="-120" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="640"/>
+      <p2 x="-120" y="660"/>
     </wire>
     <wire>
       <p1 x="-760" y="480"/>
