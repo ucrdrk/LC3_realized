@@ -22,7 +22,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>/home/allan/cs061/LC3_realized/lc3_os.hex</file>
+      <file>\home\allan\cs061\LC3_realized\lc3_os.hex</file>
     </entry>
   </attributes>
   <visualElements>
@@ -2569,7 +2569,7 @@
         </entry>
         <entry>
           <string>CodeFile</string>
-          <file>/home/allan/cs061/LC3_realized/lc3-pc.v</file>
+          <file>\home\allan\cs061\LC3_realized\lc3-pc.v</file>
         </entry>
       </elementAttributes>
       <pos x="-60" y="320"/>
@@ -2998,7 +2998,7 @@
       <elementAttributes>
         <entry>
           <string>Value</string>
-          <long>12294</long>
+          <long>12288</long>
         </entry>
         <entry>
           <string>Bits</string>
