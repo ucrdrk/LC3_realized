@@ -1714,36 +1714,6 @@
       <pos x="580" y="1180"/>
     </visualElement>
     <visualElement>
-      <elementName>ExternalFile</elementName>
-      <elementAttributes>
-        <entry>
-          <string>applicationType</string>
-          <appType>IVERILOG</appType>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>pc</string>
-        </entry>
-        <entry>
-          <string>externalInputs</string>
-          <string>a_in:16,clk,en</string>
-        </entry>
-        <entry>
-          <string>Width</string>
-          <int>4</int>
-        </entry>
-        <entry>
-          <string>externalOutputs</string>
-          <string>a_out:16</string>
-        </entry>
-        <entry>
-          <string>CodeFile</string>
-          <file>/home/allan/cs061/LC3_realized/lc3-pc.v</file>
-        </entry>
-      </elementAttributes>
-      <pos x="0" y="320"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -2793,12 +2763,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Debug/Controls</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>17</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Debug/Controls</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -2806,6 +2776,32 @@
         </entry>
       </elementAttributes>
       <pos x="-1580" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ExternalFile</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>pc</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>D:16,C,en</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>Q:16</string>
+        </entry>
+        <entry>
+          <string>CodeFile</string>
+          <file>/home/allan/cs061/LC3_realized/lc3-pc.v</file>
+        </entry>
+      </elementAttributes>
+      <pos x="0" y="320"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -3066,7 +3062,7 @@
       <p2 x="0" y="340"/>
     </wire>
     <wire>
-      <p1 x="80" y="340"/>
+      <p1 x="60" y="340"/>
       <p2 x="100" y="340"/>
     </wire>
     <wire>
