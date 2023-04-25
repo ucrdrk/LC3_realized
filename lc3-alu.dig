@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes>
     <entry>
       <string>shapeType</string>
@@ -134,16 +134,6 @@
       <pos x="880" y="520"/>
     </visualElement>
     <visualElement>
-      <elementName>Neg</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="880" y="680"/>
-    </visualElement>
-    <visualElement>
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
@@ -238,6 +228,16 @@
       <elementAttributes/>
       <pos x="1040" y="500"/>
     </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="680"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -290,7 +290,7 @@
     </wire>
     <wire>
       <p1 x="820" y="680"/>
-      <p2 x="880" y="680"/>
+      <p2 x="900" y="680"/>
     </wire>
     <wire>
       <p1 x="820" y="600"/>

@@ -26,6 +26,10 @@
           <int>6</int>
         </entry>
         <entry>
+          <string>Label</string>
+          <string>LC3-Microcode</string>
+        </entry>
+        <entry>
           <string>Bits</string>
           <int>52</int>
         </entry>
