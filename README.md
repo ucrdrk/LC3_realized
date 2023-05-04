@@ -22,3 +22,4 @@ Hello, World!
 --- Halting the LC-3 ---
 ```
 
+**NOTE** You will need to have iverilog installed on your computer because the PC is implemented using Verilog.
