@@ -124,7 +124,12 @@
     </visualElement>
     <visualElement>
       <elementName>Break</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Cycles</string>
+          <int>1000000</int>
+        </entry>
+      </elementAttributes>
       <pos x="860" y="340"/>
     </visualElement>
   </visualElements>
