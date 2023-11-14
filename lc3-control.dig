@@ -386,20 +386,6 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>LD.Priority</string>
-        </entry>
-      </elementAttributes>
-      <pos x="940" y="-660"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
           <string>LD.ACV</string>
         </entry>
       </elementAttributes>
@@ -616,24 +602,6 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>VectorMUX</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>2</int>
-        </entry>
-      </elementAttributes>
-      <pos x="940" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
           <string>ALUK</string>
         </entry>
         <entry>
@@ -742,24 +710,6 @@
       <pos x="940" y="260"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>small</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>State</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>6</int>
-        </entry>
-      </elementAttributes>
-      <pos x="780" y="180"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -820,6 +770,24 @@
         </entry>
       </elementAttributes>
       <pos x="240" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>State</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="180"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -894,10 +862,6 @@
     <wire>
       <p1 x="920" y="-980"/>
       <p2 x="940" y="-980"/>
-    </wire>
-    <wire>
-      <p1 x="920" y="-660"/>
-      <p2 x="940" y="-660"/>
     </wire>
     <wire>
       <p1 x="920" y="-340"/>
@@ -1036,16 +1000,16 @@
       <p2 x="760" y="240"/>
     </wire>
     <wire>
-      <p1 x="920" y="-820"/>
-      <p2 x="940" y="-820"/>
-    </wire>
-    <wire>
       <p1 x="920" y="-500"/>
       <p2 x="940" y="-500"/>
     </wire>
     <wire>
       <p1 x="920" y="-180"/>
       <p2 x="940" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="-820"/>
+      <p2 x="940" y="-820"/>
     </wire>
     <wire>
       <p1 x="320" y="180"/>
@@ -1082,10 +1046,6 @@
     <wire>
       <p1 x="920" y="-60"/>
       <p2 x="940" y="-60"/>
-    </wire>
-    <wire>
-      <p1 x="920" y="60"/>
-      <p2 x="940" y="60"/>
     </wire>
     <wire>
       <p1 x="180" y="380"/>
