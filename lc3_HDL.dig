@@ -2481,11 +2481,6 @@
       <pos x="-60" y="1160"/>
     </visualElement>
     <visualElement>
-      <elementName>lc3-input.dig</elementName>
-      <elementAttributes/>
-      <pos x="40" y="1080"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -2498,11 +2493,6 @@
         </entry>
       </elementAttributes>
       <pos x="20" y="1100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>lc3-output.dig</elementName>
-      <elementAttributes/>
-      <pos x="400" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2537,7 +2527,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[191]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[189]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2551,7 +2541,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[191]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[189]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2565,7 +2555,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[191]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[189]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2579,7 +2569,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[191]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[189]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2913,7 +2903,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[223]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[221]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2927,7 +2917,7 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation reference="../../../../visualElement[223]/elementAttributes/entry/rotation"/>
+          <rotation reference="../../../../visualElement[221]/elementAttributes/entry/rotation"/>
         </entry>
         <entry>
           <string>NetName</string>
@@ -2945,6 +2935,16 @@
       <elementName>And</elementName>
       <elementAttributes/>
       <pos x="-760" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>lc3-input_HDL.dig</elementName>
+      <elementAttributes/>
+      <pos x="40" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>lc3-output_HDL.dig</elementName>
+      <elementAttributes/>
+      <pos x="400" y="1060"/>
     </visualElement>
   </visualElements>
   <wires>
