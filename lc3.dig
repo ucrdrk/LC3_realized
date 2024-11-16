@@ -18,7 +18,7 @@
     </entry>
     <entry>
       <string>preloadProgramFile</string>
-      <file>C:\Users\allan\source\repos\LC3_realized\helloworld.hex</file>
+      <file>./helloworld.hex</file>
     </entry>
   </attributes>
   <visualElements>
