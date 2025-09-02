@@ -1,0 +1,13 @@
+.ORIG x3000
+LD R2, R2_VAL
+LD R3, R3_VAL
+
+ADD R1, R2, R3
+ADD R1, R2, #3
+ST R1, R3_VAL
+
+HALT
+
+R2_VAL .fill x12
+R3_VAL .fill x11
+.END

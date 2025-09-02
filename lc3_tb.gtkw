@@ -1,0 +1,100 @@
+[*]
+[*] GTKWave Analyzer v3.3.121 (w)1999-2024 BSI
+[*] Tue Sep  2 00:32:09 2025
+[*]
+[dumpfile] "/home/allan/cs061/LC3_realized/lc3.vcd"
+[dumpfile_mtime] "Tue Sep  2 00:20:41 2025"
+[dumpfile_size] 1088836
+[savefile] "/home/allan/cs061/LC3_realized/lc3_tb.gtkw"
+[timestart] 12471900
+[size] 3029 2007
+[pos] -1 -1
+*-14.879887 12615000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] lc3_tb.
+[treeopen] lc3_tb.lc3_uut.
+[treeopen] lc3_tb.lc3_uut.lc3_memory_HDL_i16.
+[treeopen] lc3_tb.lc3_uut.lc3_memory_HDL_i16.lc3_SPRAM_HDL_i1.
+[sst_width] 278
+[signals_width] 657
+[sst_expanded] 1
+[sst_vpaned_height] 621
+@28
+lc3_tb.clk
+lc3_tb.lc3_uut.lc3_details_HDL_i15.\PSR[15]
+@200
+-PC
+@22
+lc3_tb.lc3_uut.pc_i14.Q[15:0]
+@200
+-IR
+@22
+lc3_tb.lc3_uut.DIG_Register_BUS_i7.Q[15:0]
+@200
+-R0
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i1.Q[15:0]
+@200
+-R1
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i2.Q[15:0]
+@200
+-R2
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i3.Q[15:0]
+@200
+-R3
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i4.Q[15:0]
+@200
+-R4
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i5.Q[15:0]
+@200
+-R5
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i6.Q[15:0]
+@200
+-R6
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i7.Q[15:0]
+@200
+-R7
+@22
+lc3_tb.lc3_uut.lc3_register_file_i6.DIG_Register_BUS_i8.Q[15:0]
+@200
+- Control Signals
+@28
+lc3_tb.lc3_uut.lc3_control_i8.\LD.MAR
+lc3_tb.lc3_uut.lc3_control_i8.\LD.MDR
+lc3_tb.lc3_uut.lc3_control_i8.\LD.IR
+lc3_tb.lc3_uut.lc3_control_i8.\LD.BEN
+lc3_tb.lc3_uut.lc3_control_i8.\LD.REG
+lc3_tb.lc3_uut.lc3_control_i8.\LD.CC
+lc3_tb.lc3_uut.lc3_control_i8.\LD.PC
+lc3_tb.lc3_uut.lc3_control_i8.\LD.Priv
+lc3_tb.lc3_uut.lc3_control_i8.\LD.SavedSSP
+lc3_tb.lc3_uut.lc3_control_i8.\LD.SavedUSP
+lc3_tb.lc3_uut.lc3_control_i8.\LD.Vector
+lc3_tb.lc3_uut.lc3_control_i8.\LD.ACV
+lc3_tb.lc3_uut.lc3_control_i8.GatePC
+lc3_tb.lc3_uut.lc3_control_i8.GateALU
+lc3_tb.lc3_uut.lc3_control_i8.GateMDR
+lc3_tb.lc3_uut.lc3_control_i8.GateMARMUX
+lc3_tb.lc3_uut.lc3_control_i8.GateVector
+lc3_tb.lc3_uut.lc3_control_i8.\GatePC-1
+lc3_tb.lc3_uut.lc3_control_i8.GatePSR
+lc3_tb.lc3_uut.lc3_control_i8.GateSP
+lc3_tb.lc3_uut.PCMUX[1:0]
+lc3_tb.lc3_uut.lc3_control_i8.DRMUX[1:0]
+lc3_tb.lc3_uut.lc3_control_i8.SR1MUX[1:0]
+lc3_tb.lc3_uut.lc3_control_i8.ADDR2MUX[1:0]
+lc3_tb.lc3_uut.lc3_control_i8.SPMUX[1:0]
+lc3_tb.lc3_uut.lc3_control_i8.ALUK[1:0]
+lc3_tb.lc3_uut.lc3_control_i8.ADDR1MUX
+lc3_tb.lc3_uut.lc3_control_i8.MARMUX
+lc3_tb.lc3_uut.lc3_control_i8.TableMUX
+lc3_tb.lc3_uut.lc3_control_i8.PSRMUX
+lc3_tb.lc3_uut.lc3_control_i8.\MIO.EN
+lc3_tb.lc3_uut.lc3_control_i8.\R.W
+[pattern_trace] 1
+[pattern_trace] 0

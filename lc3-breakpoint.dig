@@ -70,6 +70,10 @@
           <boolean>true</boolean>
         </entry>
         <entry>
+          <string>addValueToGraph</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>Breakpoint</string>
         </entry>
@@ -95,6 +99,10 @@
           <string>Label</string>
           <string>PC</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
       </elementAttributes>
       <pos x="620" y="300"/>
     </visualElement>
@@ -109,12 +117,20 @@
           <string>Label</string>
           <string>State</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>6</int>
+        </entry>
       </elementAttributes>
       <pos x="620" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
+        <entry>
+          <string>addValueToGraph</string>
+          <boolean>false</boolean>
+        </entry>
         <entry>
           <string>Label</string>
           <string>en</string>
