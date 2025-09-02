@@ -2563,6 +2563,7 @@
         <entry>
           <string>CodeFile</string>
           <file>./lc3-pc.v</file>
+          <file>./lc3-pc.v</file>
         </entry>
       </elementAttributes>
       <pos x="-140" y="320"/>
