@@ -3330,6 +3330,16 @@
       </elementAttributes>
       <pos x="-420" y="1720"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>running</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-260" y="960"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -3735,6 +3745,10 @@
     <wire>
       <p1 x="-260" y="1600"/>
       <p2 x="-240" y="1600"/>
+    </wire>
+    <wire>
+      <p1 x="-280" y="960"/>
+      <p2 x="-260" y="960"/>
     </wire>
     <wire>
       <p1 x="940" y="580"/>
